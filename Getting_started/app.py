@@ -2,6 +2,9 @@ from flask import Flask
 import os
 import time 
 import redis
+# The open-source, in-memory data store used by millions 
+# of developers as a cache, vector database, document 
+# database, streaming engine, and message broker
 
 app = Flask(__name__)
 cache = redis.Redis(host = 'redis', port=6379)
