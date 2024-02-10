@@ -1,6 +1,6 @@
 # Flask for Hello World 
 
-from Flask import Flask
+from flask import Flask
 import os
 
 app = Flask(__name__)
